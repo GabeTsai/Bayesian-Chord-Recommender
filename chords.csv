@@ -1,0 +1,35 @@
+Mode,Progression,Genre most commonly used in?
+Major,I vi IV V,"Classical, pop"
+Major,I vi ii V,Classical
+Minor,i vi IV V,Classical
+Major,I V vi IV,Pop
+Major,V vi IV I,Pop
+Major,vi IV I V,Pop
+Major,IV I V vi,Pop
+Minor,i VI III VII,Pop
+Major,vi IV I V,"Classical, pop"
+Major,I V bVII IV,Pop
+Major,I IV bVII IV,Pop
+Major,vi ii V I,Classical
+Major,I V IV V,"Classical, pop"
+Major,I IV V I,"Classical, pop"
+Minor,i iv v i,Classical
+Major,I IV I V,"Classical, pop"
+Major,I IV vi V,"Classical, pop"
+Minor,i VII VI V,"Classical, pop"
+Major,I V vi iii IV I IV V,"Classical, pop"
+Major,I vi IV V,Pop
+Minor,i iv VII III,Pop
+Minor,iv V,Classical
+Minor,i bVI bIII bVII,Pop
+Major,I iii IV V,"Classical, pop"
+Major,II V I VI,Classical
+Minor,i VI iii VII,Pop
+Major,I V vi IV,Pop
+Minor,i iv VI III,"Classical, pop"
+Major,I VI ii V,"Classical, pop"
+Minor,iv I V iv,Classical
+Major,I IV ii V,"Classical, pop"
+Minor,i v iv VII,Pop
+Major,IV ii V I,"Classical, pop"
+Minor,dii V i VI,"Classical, pop"
