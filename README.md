@@ -1,0 +1,3 @@
+Chord progressions are successions of chords that form the foundational harmony of musical pieces from the Baroque period that marked the start of the Classical music era to works from the 21st century. 
+Countless musical pieces reuse the same common chord progressions, because these progressions often have the universal ability to lay the grounds for complex and beautiful music. 
+Therefore, we can use principles of conditional probability and build a Bayesian network to predict what chord could follow a chord, given information about the mode (major or minor) of the piece, musical style, and more.
