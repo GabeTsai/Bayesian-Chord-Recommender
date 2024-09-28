@@ -15,6 +15,10 @@ In order to encode this data into the Bayesian network, I wrote a chord class to
 
 The Bayesian Chord Progression Generator is a simple Bayesian network parameterized according to the diagram below, where the arrows represent node dependencies. I decided on these relationships based on my own music knowledge. For example, it is reasonable to assume that the key type can affect the next chord and the current chord (certain chords are more commonly used in minor than major keys). As with all Bayesian Networks, the nodes are conditionally independent of their non-descendants given their parents. I decided on a first-order Markov model for the Bayesian network to set a reasonable scope for the project, meaning that a chord would depend on the preceding chord. 
 
+<p align="center">
+<img src = "BayesianNetwork.png" alt = "Network structure" width = "500">
+
+
 ### Training the Model
 
 I trained the Bayesian network using the Dirichlet prior distribution (the multinomial version of the Beta distribution) for each node, since I’m trying to calculate the conditional probability of a chord showing up based on several multinomial or categorical variables - the chord that preceded it, musical genre, and key type. In addition, the Dirichlet distribution is the conjugate prior of the multinomial distribution, similar to how the Beta distribution is the conjugate prior of the Bernoulli and thus binomial distribution, so calculating the posterior distribution is as easy as updating the distribution’s parameters with the number of occurrences of each event.
